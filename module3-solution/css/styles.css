@@ -1,1 +1,44 @@
-
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: floralwhite;
+	color: darkcyan;
+}
+h1 {
+	font-weight: bold;
+	color: teal;
+}
+h2 {
+	color: teal;
+}
+#header-nav {
+	background-color: skyblue;
+	border-radius: 0;
+	border: 0;
+	border-bottom: 3px solid darkcyan;
+}
+.row {
+	border: 2px solid cadetblue;
+	background-color: lightblue;
+	padding: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+.navbar-brand h1 {
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid teal;
+}
+li + li {
+	border-top: 1px solid teal;
+}
+a > span {
+	color: teal;
+}
